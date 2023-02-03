@@ -16,7 +16,7 @@ button.onclick = function() {
         if(rand <= chance) {
             shiny = true
         } else {
-            chance += 2
+            chance += 4
         }
         rolls += 1
         count.innerHTML = "Amount of rolls: "+rolls
